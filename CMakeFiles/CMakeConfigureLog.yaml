@@ -1,0 +1,1143 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Darwin - 23.5.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      note: Building targets in dependency order
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdC' in project 'CompilerIdC' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+      
+      Build description signature: c709fac7a065292142e8b9814a57b53e
+      Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/./XCBuildData/c709fac7a065292142e8b9814a57b53e.xcbuilddata
+      CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+      
+      ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.xcodeproj
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+      
+      CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/EagerLinkingTBDs/Debug
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent
+      
+      ProcessProductPackagingDER /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          /usr/bin/derq query -f xml -i /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+      -target arm64-apple-macos14.5 -fpascal-strings -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g '-fvisibility=hidden' -iquote /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+      
+      CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CMakeCCompilerId.c -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+      
+      Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Os -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          /bin/sh -c /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent --timestamp\\=none --generate-entitlement-der /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC
+      
+      RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC
+          builtin-RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdC' from project 'CompilerIdC')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      note: Building targets in dependency order
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdCXX' in project 'CompilerIdCXX' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c++ -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+      
+      Build description signature: 79bd4f87a8fed8fcf73807278be03b5a
+      Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/./XCBuildData/79bd4f87a8fed8fcf73807278be03b5a.xcbuilddata
+      CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+      
+      ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+      
+      CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/EagerLinkingTBDs/Debug
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent
+      
+      ProcessProductPackagingDER /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          /usr/bin/derq query -f xml -i /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+      -target arm64-apple-macos14.5 -fpascal-strings -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g '-fvisibility=hidden' -fvisibility-inlines-hidden -iquote /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+      
+      CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+      
+      Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -Os -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX
+      
+      WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          /bin/sh -c /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent --timestamp\\=none --generate-entitlement-der /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX
+      
+      RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX
+          builtin-RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI"
+      binary: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_8181a -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_8181a -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_8181a' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        Build description signature: 71a9ee07b79bf892d1430a9ae517eb30
+        Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/XCBuildData/71a9ee07b79bf892d1430a9ae517eb30.xcbuilddata
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+        -target arm64-apple-macos14.5 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug
+        
+        CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl,-v @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos14.5
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.5 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/include -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources-normal/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/include"
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a normal (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos14.5
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 10:15:51 Mar 29 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift
+        Framework search paths:
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks
+        
+        RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI
+            builtin-RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_8181a -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_8181a -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_8181a' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+        ignore line: []
+        ignore line: [Build description signature: 71a9ee07b79bf892d1430a9ae517eb30]
+        ignore line: [Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/XCBuildData/71a9ee07b79bf892d1430a9ae517eb30.xcbuilddata]
+        ignore line: [CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug]
+        ignore line: []
+        ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI]
+        ignore line: [    write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI]
+        ignore line: [    write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp]
+        ignore line: [-target arm64-apple-macos14.5 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug]
+        ignore line: []
+        ignore line: [CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl -v @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos14.5]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.5 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/include -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources-normal/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a normal (in target 'cmTC_8181a' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos14.5]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.5.0] ==> ignore
+          arg [14.5] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug/cmTC_8181a] ==> ignore
+          arg [-L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug] ==> dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o] ==> obj [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_dependency_info.dat] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug] ==> ignore
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift]
+        Framework search paths: [;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug], skipping non-system directory
+        collapse library dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift]
+        collapse framework dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-OHLMyI/build/cmTC_8181a.build/Debug/Objects-normal/arm64/cmTC_8181a_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 10:15:51 Mar 29 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT"
+      binary: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06ed7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06ed7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_06ed7' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c++ -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        Build description signature: 9c49202ce1aec9dc7b775e4b496491f9
+        Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/XCBuildData/9c49202ce1aec9dc7b775e4b496491f9.xcbuilddata
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+        -target arm64-apple-macos14.5 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList
+        
+        CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl,-v @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos14.5
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.5 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/include -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources-normal/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/include"
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7 normal (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos14.5
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 10:15:51 Mar 29 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift
+        Framework search paths:
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug
+        	/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks
+        
+        RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7 (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT
+            builtin-RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06ed7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06ed7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_06ed7' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c++ -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+        ignore line: []
+        ignore line: [Build description signature: 9c49202ce1aec9dc7b775e4b496491f9]
+        ignore line: [Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/XCBuildData/9c49202ce1aec9dc7b775e4b496491f9.xcbuilddata]
+        ignore line: [CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug]
+        ignore line: []
+        ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT]
+        ignore line: [    write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp]
+        ignore line: [-target arm64-apple-macos14.5 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT]
+        ignore line: [    write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList]
+        ignore line: []
+        ignore line: [CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl -v @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos14.5]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.5 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/include -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources-normal/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources/arm64 -I /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.5.0]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7 normal (in target 'cmTC_06ed7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos14.5]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 14.5.0 14.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug -reproducible -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList -object_path_lto /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.5.0] ==> ignore
+          arg [14.5] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug/cmTC_06ed7] ==> ignore
+          arg [-L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug] ==> dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o] ==> obj [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_dependency_info.dat] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug] ==> ignore
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift]
+        Framework search paths: [;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug;/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug], skipping non-system directory
+        collapse library dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift]
+        collapse framework dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug] ==> [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: [/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-YQowjT/build/cmTC_06ed7.build/Debug/Objects-normal/arm64/cmTC_06ed7_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 10:15:51 Mar 29 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Zlib/CMakeLists.txt:45 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9"
+      binary: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/lorwy/Code/github_projects/other/PDF-Writer/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4bdb5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4bdb5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_4bdb5' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        Build description signature: 57d94691ffc49278c8e86fbe6d3cf36c
+        Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/XCBuildData/57d94691ffc49278c8e86fbe6d3cf36c.xcbuilddata
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/EagerLinkingTBDs/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_4bdb5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+        -target arm64-apple-macos14.5 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/cmTC_4bdb5.LinkFileList (in target 'cmTC_4bdb5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/cmTC_4bdb5.LinkFileList
+        
+        CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/CheckIncludeFile.o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4bdb5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/CheckIncludeFile.c -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/CheckIncludeFile.o
+        
+        Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug/cmTC_4bdb5 normal (in target 'cmTC_4bdb5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/cmTC_4bdb5.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/cmTC_4bdb5_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/build/cmTC_4bdb5.build/Debug/Objects-normal/arm64/cmTC_4bdb5_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug/cmTC_4bdb5
+        
+        RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug/cmTC_4bdb5 (in target 'cmTC_4bdb5' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9
+            builtin-RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-WGFMx9/Debug/cmTC_4bdb5
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.30.0/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "LibTiff/CMakeLists.txt:75 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd"
+      binary: "/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/lorwy/Code/github_projects/other/PDF-Writer/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk"
+    buildResult:
+      variable: "T_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_6f265 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_6f265 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_6f265' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        Build description signature: 2a1928682b06249ce0935f75cfe4f950
+        Build description path: /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/XCBuildData/2a1928682b06249ce0935f75cfe4f950.xcbuilddata
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache
+        
+        CreateBuildDirectory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/EagerLinkingTBDs/Debug
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/cmTC_6f265.LinkFileList (in target 'cmTC_6f265' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/cmTC_6f265.LinkFileList
+        
+        WriteAuxiliaryFile /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_6f265' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd
+            write-file /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+        -target arm64-apple-macos14.5 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -g -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug/include -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/DerivedSources-normal/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/DerivedSources/arm64 -I/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/DerivedSources -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug
+        
+        CompileC /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/CheckIncludeFile.o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_6f265' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/2x/cmjmsbfs29l_gvnfzkq3r3mh0000gn/C/com.apple.DeveloperTools/15.4-15F31d/Xcode/SDKStatCaches.noindex/macosx14.5-23F73-7e3fd6dc4171e65dbd154ba8db3956d2.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body @/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/CheckIncludeFile.c -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/CheckIncludeFile.o
+        
+        Ld /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug/cmTC_6f265 normal (in target 'cmTC_6f265' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -O0 -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/EagerLinkingTBDs/Debug -L/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/EagerLinkingTBDs/Debug -F/Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug -filelist /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/cmTC_6f265.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/cmTC_6f265_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/build/cmTC_6f265.build/Debug/Objects-normal/arm64/cmTC_6f265_dependency_info.dat -o /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug/cmTC_6f265
+        
+        RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug/cmTC_6f265 (in target 'cmTC_6f265' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd
+            builtin-RegisterExecutionPolicyException /Users/lorwy/Code/github_projects/other/PDF-Writer/CMakeFiles/CMakeScratch/TryCompile-iafPQd/Debug/cmTC_6f265
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+...
